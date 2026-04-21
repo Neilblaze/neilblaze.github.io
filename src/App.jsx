@@ -29,7 +29,7 @@ export default function App() {
 
     const timer = setTimeout(() => {
       window.location.href = REDIRECT_URL
-    }, 100)
+    }, 1000)
 
     return () => {
       clearTimeout(timer)
